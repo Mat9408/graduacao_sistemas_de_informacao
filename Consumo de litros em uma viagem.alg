@@ -1,27 +1,29 @@
+ObservaÃ§Ã£o: Conforme o enunciado, considere que o veÃ­culo faÃ§a 12km por litro.
+
 algoritmo "Consumo de litros em uma viagem."
-// Função : Calcular o consumo de um veículo e outras informações importantes.
+// FunÃ§Ã£o : Calcular o consumo de um veÃ­culo e outras informaÃ§Ãµes importantes.
 // Autor : Matheus Alves
 // Data : 03/04/2022
-// Seção de Declarações 
+// SeÃ§Ã£o de DeclaraÃ§Ãµes 
 var
 tempogasto: real
 velocidademedia: real
 distanciapercorrida: real
 consumodelitros: real
 inicio
-// Seção de Comandos 
+// SeÃ§Ã£o de Comandos 
 escreval("Defina o tempo gasto na viagem.")
 leia(tempogasto)
 
-escreval("Defina a velocidade média do automóvel.")
+escreval("Defina a velocidade mÃ©dia do automÃ³vel.")
 leia(velocidademedia)
 
 distanciapercorrida <- tempogasto * velocidademedia
 
 consumodelitros <- distanciapercorrida/12
 
-escreval(" A velocidade média do veículo foi de ",velocidademedia,".")
+escreval(" A velocidade mÃ©dia do veÃ­culo foi de ",velocidademedia,".")
 escreval("O tempo gasto na viagem foi de ",tempogasto,".")
-escreval("A distância percorrida durante a viagem foi de ",distanciapercorrida,".")
+escreval("A distÃ¢ncia percorrida durante a viagem foi de ",distanciapercorrida,".")
 escreval("A quantidade de litros utilizada na viagem foi de ",consumodelitros,".")
 fimalgoritmo
