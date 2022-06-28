@@ -1,4 +1,4 @@
-# graduacao_sistemas_de_informacao
+# Projeto e Desenvolvimento de Algoritmos
 
 
 Essa branch contém códigos produzidos como exercício na disciplina de Projeto e Desenvolvimento de Algorítmos. 
